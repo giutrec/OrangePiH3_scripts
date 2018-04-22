@@ -121,11 +121,11 @@ elif [[ $DISTRO = "7" ]]; then
 elif [[ $DISTRO = "8" ]]; then
     distro="wheezy"
     repo="http://archive.raspbian.org/raspbian"
-    raspbian="y"
+    raspbian="yes"
 elif [[ $DISTRO = "9" ]]; then
     distro="jessie"
     repo="http://archive.raspbian.org/raspbian"
-    raspbian="y"
+    raspbian="yes"
 else
     clear
     echo "Please selset correct platform!"
