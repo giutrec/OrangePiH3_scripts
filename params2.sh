@@ -98,15 +98,17 @@ linuxsize=800
 
 # === Debian ===
 #distro="wheezy"
-distro="jessie"
-repo="http://ftp.hr.debian.org/debian"
-raspbian="no"
+#distro="jessie"
+#distro="stretch"
+#repo="http://ftp.hr.debian.org/debian"
+#raspbian="no"
 
 # === Raspbian ===
 #distro="wheezy"
 #distro="jessie"
-#repo="http://archive.raspbian.org/raspbian"
-#raspbian="yes"
+distro="stretch"
+repo="http://archive.raspbian.org/raspbian"
+raspbian="yes"
 
 # ******************************************************
 # If creating the image, you can xz compress the image *
