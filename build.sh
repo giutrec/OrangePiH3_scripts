@@ -194,14 +194,16 @@ if [ $OPTION = "0" -o $OPTION = "1" ]; then
 		--menu "$MENUSTR" 20 60 10 --cancel-button Finish --ok-button Select \
 		"0"   "Ubuntu Pecise" \
 		"1"   "Ubuntu Trusty" \
-		"2"	  "Ubuntu Utopic" \
+		"2"   "Ubuntu Utopic" \
 		"3"   "Ubuntu Vivid" \
 		"4"   "Ubuntu Wily" \
 		"5"   "Ubuntu Xenial" \
 		"6"   "Debian Wheezy" \
 		"7"   "Debian Jessie" \
-		"8"   "Raspbian Wheezy" \
-		"9"   "Raspbian Jessie" \
+		"8"   "Debian Stretch" \
+		"9"   "Raspbian Wheezy" \
+		"10"   "Raspbian Jessie" \
+		"11"   "Raspbian Stretch" \
 		3>&1 1>&2 2>&3)
 
 	if [ ! -f $ROOT/output/uImage_${PLATFORM} ]; then
