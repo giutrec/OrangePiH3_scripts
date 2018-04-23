@@ -8,7 +8,7 @@ if ! hash apt-get 2>/dev/null; then
 fi
 
 apt-get -y --no-install-recommends --fix-missing install \
-	bsdtar mtools u-boot-tools pv bc \
+	bsdtar mtools u-boot-tools pv bc curl \
 	gcc automake make \
 	lib32z1 lib32z1-dev qemu-user-static \
 	dosfstools libncurses5-dev lib32stdc++-5-dev debootstrap

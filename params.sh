@@ -134,6 +134,7 @@ elif [[ $DISTRO = "11" ]]; then
     distro="stretch"
     repo="http://archive.raspbian.org/raspbian"
     raspbian="yes"
+
 else
     clear
     echo "Please selset correct platform!"
