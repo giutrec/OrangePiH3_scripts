@@ -117,15 +117,23 @@ elif [[ $DISTRO = "7" ]]; then
     distro="jessie"
     repo="http://ftp.hr.debian.org/debian"
     raspbian="no"
-# === Raspbian ===
 elif [[ $DISTRO = "8" ]]; then
+    distro="stretch"
+    repo="http://ftp.hr.debian.org/debian"
+    raspbian="no"
+# === Raspbian ===
+elif [[ $DISTRO = "9" ]]; then
     distro="wheezy"
     repo="http://archive.raspbian.org/raspbian"
-    raspbian="y"
-elif [[ $DISTRO = "9" ]]; then
+    raspbian="yes"
+elif [[ $DISTRO = "10" ]]; then
     distro="jessie"
     repo="http://archive.raspbian.org/raspbian"
-    raspbian="y"
+    raspbian="yes"
+elif [[ $DISTRO = "11" ]]; then
+    distro="stretch"
+    repo="http://archive.raspbian.org/raspbian"
+    raspbian="yes"
 else
     clear
     echo "Please selset correct platform!"
